@@ -1,0 +1,62 @@
+.top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mobileHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.mobileList{
+    display: flex;
+    flex-direction: column;
+    line-height: 55px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    padding:0 28px;
+}
+.menuBtn{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+.menuBtn:hover{
+    color: #3C53FF;
+}
+.logOutButton{
+    border: 1px solid #333333;
+    height: 32px;
+    align-items: center;
+    width: 130px;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+.logInButton{
+    border: 1px solid #333333;
+    height: 32px;
+    align-items: center;
+}
+.logOutButtonPC{
+    margin: 15px auto;
+}
+.hoverButton{
+    color: #333333;
+    font-size: 14px;
+    display: flex;
+    vertical-align: middle;
+    justify-items: start;;
+    height: 52px;
+    align-items: center;
+    border-radius: 0;
+    width: 137px;
+    padding: 0 26px;
+}
+.pcHoverBottom{
+    margin: 0 auto;
+}

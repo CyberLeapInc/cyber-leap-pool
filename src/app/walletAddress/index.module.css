@@ -1,0 +1,86 @@
+.modalTitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+}
+.modalSubTitle{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.myInput{
+    height: 52px;
+    border-radius: 12px;
+}
+.tip{
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.bigTip{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.mobileContent{
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.remarkMobile{
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    margin-left: 10px;
+}
+.remark{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    display: inline-block;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+.errorMessage{
+    font-weight: 400;
+    font-size: 12px;
+    color: #EA2A2A;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    margin-top: 2px;
+}
+.successImage{
+    width: 80px;
+    height: 80px;
+    margin: 40px auto 20px;
+}
+.successLocationBar{
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #F7F7F7;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+}

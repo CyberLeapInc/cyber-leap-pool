@@ -1,0 +1,444 @@
+{
+  "buyProduct": {
+    "messages": {
+      "paymentTimeout": "Expired",
+      "paymentSuccessful": "Completed",
+      "unknownState": "Unknown",
+      "unknownError": "Unknown error"
+    },
+    "selectNetwork": {
+      "loading": "Loading...",
+      "totalCost": "Total",
+      "goPay": "Proceed to payment"
+    },
+    "finishPayment": {
+      "duration": "持续时间",
+      "amount": "Amount",
+      "orderId": "Order Id",
+      "qrcodeUrl": "QR code URL",
+      "isCountDownFinish": "倒计时完成",
+      "finishPay": "Payment completed",
+      "setTimeStatus": "设置时间状态"
+    },
+    "clipboard": {
+      "copySuccess": "Copy successful"
+    },
+    "counter": {
+      "remainingTime": "Remaining time {time}",
+      "timeout": "Expired"
+    }
+  },
+  "calculator": {
+    "title": "Mining Calculator",
+    "formLabels": {
+      "selectCurrency": "Coin",
+      "selectPackage": "Plan",
+      "hashrateQuantity": "Hashrate",
+      "expectedPrice": "Ept. price",
+      "expectedDifficulty": "Ept. diff"
+    },
+    "startCalculation": "Calculate",
+    "cardTitles": {
+      "totalIncome": "Expected \n total revenue",
+      "totalExpenditure": "Total cost",
+      "netProfit": "Net profit",
+      "dailyIncome": "Daily revenue",
+      "paybackDay": "Break-even period",
+      "paybackPrice": "Break-even \n BTC price",
+      "totalElectricityFee": "Total electricity"
+    },
+    "introLabels": {
+      "btcPrice": "BTC price: ",
+      "miningDifficulty": "Difficulty: ",
+      "networkHashrate": "Network hashrate: "
+    },
+    "difficultyRange": "{percentage}%",
+    "currencyPrice": "{currency} price",
+    "unableToPayback": "unable to break even",
+    "paybackInDays": "days",
+    "usdt": "USDT"
+  },
+  "codeSender": {
+    "sendVerificationCode": "Send",
+    "retryAfter": "Resend({seconds}s)",
+    "verificationCodeSent": "sent",
+    "verificationCodeSendFailed": "Failed to send",
+    "code":"code"
+  },
+  "electricityFee": {
+    "chargeFee": {
+      "modalSubTitle": "Amount",
+      "canUseCount": "Expected to be usable for {day} day",
+      "confirm": "Continue"
+    },
+    "stateHover": {
+      "unpaid": "Awaiting payment",
+      "notPaid": "Awaiting payment",
+      "payImmediately": "Proceed to payment",
+      "finishPayment": "Complete the payment within ",
+      "rechargeOverTime": "Expired",
+      "rechargeAgain": "Deposit again",
+      "charged": "Deposit completed",
+      "deducted": "Deducted"
+    },
+    "modalTitle": "Electricity Deposit",
+    "boxMainTitleText": {
+      "electricityBalance": "Electricity Balance",
+      "canMine": "Expected to Mine",
+      "yesterdayElectricityFee": "Yesterday Electricity",
+      "day":"{day} day"
+    },
+    "recharge": "Deposit",
+    "historyDetails": "Transaction History",
+    "time": "Time",
+    "orderNumber": "Order ID",
+    "orderStatus": "Status",
+    "amount": "Amount"
+  },
+  "finishPayment": {
+    "paymentDetails": "Payment Details",
+    "amountToTransfer": "Amount to transfer",
+    "orderId": "Order ID",
+    "warning": "Please make the payment according to the amount to transfer, and be aware of the network fees during the transfer.",
+    "transferNetwork": "Network: ",
+    "completedTransfer": "Payment completed"
+  },
+  "footer": {
+    "serviceAgreement": "Terms of service",
+    "privacyPolicy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "copyright": "© 2024 Hashspace. All rights reserved"
+  },
+  "header": {
+    "startMining": "Get started",
+    "home": "Home",
+    "cloudPower": "Cloud Mining",
+    "frequentQuestions": "FAQ",
+    "calculator": "Calculator",
+    "about": "About",
+    "kyc": "Identification",
+    "securityCenter": "Security",
+    "myOrder": "Orders",
+    "walletAddress": "Address",
+    "electricityFee": "Electricity",
+    "logout": "Log Out",
+    "certified": "Verified",
+    "notCertified": "Unverified"
+  },
+  "home": {
+    "bannerTitle": "Trusted Cloud \n Mining Platform",
+    "subBannerTitle": "In Hash Space, you can enjoy comprehensive all-in-one services tailored to enhance your crypto experience and maximize your mining potential.",
+    "cardProfessionalTitle": "Professional Team",
+    "cardProfessionalText": "We strictly screen the mining farms and always provide you with reliable high-quality resources.There will be more miner rigs、power and data centers in the future.",
+    "cardAutonomyTitle": "Hashrate Independence",
+    "cardAutonomyText": "You can choose your own mining pools, pay your own electricity bills, and receive coins directly from the mining pool. You can also select your preferred payment methods. All our services put you in control.",
+    "cardSecurityTitle": "Safe and Compliant",
+    "cardSecurityText": "Self-operated mining data centers are located in multiple regions including the United States and Southeast Asia, providing your mining operations with greater flexibility, transparency, and competitiveness.",
+    "questionTitle": "",
+    "questions": [
+      {
+        "title": "How does Hash Space work?",
+        "text": "First, you will select one of the plans in Hash Space. Then you pay for the hash power and deposit electricity fees. Our partner from the mining farm will handle the rest of the configuration process, power management, and miner maintenance on your behalf. As a client, you only need to add cryptocurrency address, then you can enjoy our one-stop services and receive the mining revenue from that mining pool."
+      },
+      {
+        "title": "What are the available payment methods？",
+        "text": "We support crypto payment in USDT（ERC20）、USDT（TRC20）and USDC（ERC20）."
+      },
+      {
+        "title": "Who are the owners of the mining machines?",
+        "text": "The mining machines, that are producing hash power that are sold on the Hash Space platform, are owned by Hash Space. Hash Space provides technical services for buyers. Currently our miners are hosted in the data center in United States, and there will be more data centers in the future."
+      },
+      {
+        "title": "Where is the mining farm located?",
+        "text": "Hash Space provides technical services for hash power buyers. Currently our miners are hosted in the data center in United States, and there will be more data centers in the future. United States has a deregulated power grid, abundant power resources, and friendly mining policies, making it an ideal location."
+      },
+      {
+        "title": "How is the electricity fee calculated? Can the fee be deducted from earnings? What other fees are there?",
+        "text": "The current electricity rate is 0.1$ kW/h, but rates are subject to change. The electricity fee will not be directly deducted from your earnings so you must manually deposit funds to your balance, and maintain at least 1 day worth of electric fees.* Excluding electricity fees, clients have no additional fees."
+      },
+      {
+        "title": "What are the differences between Hash Space and similar services?",
+        "text": "Compared with other existing products of the same type, Hash Space has three notable features.1. We only choose trusted hash power providers through strict criteria to provide clients with the very services.2. Our products allow clients to choose their preferred mining pools instead of forcibly binding them to one mining pool. With this, clients are given flexibility.3. We entrust the entire process of cloud computing to the mining pool that you, the client sets. We also have no participation in the management and maintenance of the miners themselves."
+      },
+      {
+        "title": "Is real-name authentication required to purchase a plan?",
+        "text": " For security concerns, we require all users who purchase hash power from Hash Space to complete the real-name authentication (also called“KYC”) and AML. Some clients may be required to be accredited investors before purchasing our plans."
+      },
+      {
+        "title": "Can I get a refund after purchasing a plan?",
+        "text": "The fees paid by clients during the purchase and use of Hash Space’s products are non-refundable. Please read our Terms of Service and Disclaimer carefully. If you have any questions during the purchase or use, you can contact us at any time. (Email: support@cyberleap.us）"
+      },
+      {
+        "title": "Can I choose any pools I’d like to use?",
+        "text": "Any mining pools that are protocol compatible with our Miner Agent will be supported. Currently F2Pool are available."
+      },
+      {
+        "title": "Who will pay the mining revenue? ",
+        "text": "Hash Space only provides the sales service of the right to use of the hash power. Mining revenue will be paid by the mining pool."
+      },
+      {
+        "title": "What is the criteria for choosing a hash power provider?",
+        "text": "To provide our clients with the most reliable service, we have created a detailed inspection checklist for hash power providers. This inspection includes an enterprise background investigation, an on-site inspection that includes maintenance and servicing of site, crypto policy research, communication evaluation of provider, and ongoing re-evaluations."
+      }
+    ]
+  },
+  "kyc": {
+    "startKycVerification": "Verify Your Identity",
+    "youHaveNotKycVerified": "You have not completed identity verification.",
+    "verify": "Verify",
+    "kycSubmitted": "Documents have been submitted, and expected to be completed within 24 hours.",
+    "kycFailed": "Your verification has failed, please re-submit your verification.",
+    "kycPassed": "Your verification has been approved."
+  },
+  "login": {
+    "welcomeToHashSpace": "Welcome to Hash Space",
+    "email": "Email",
+    "enterYourEmail": "Enter your email",
+    "nextStep": "Continue",
+    "verification": "Verification",
+    "emailCode": "Email code",
+    "emailCodeError": "Invalid code",
+    "enterEmailCode": "Please enter the 6-digit verification code that was sent to {email}. The code is valid for 30 minutes.",
+    "googleVerificationCode": "Google 2FA",
+    "enterGoogleVerificationCode": "Google code",
+    "googleVerificationCodeError": "Invalid code",
+    "openGoogleAuthenticator": "Please open your Google Authenticator and enter the 6-digit verification code.",
+    "agreeToTerms": "By creating an account, I agree to Hash Space's",
+    "termsOfService": " Terms of Service ",
+    "privacyPolicy": " Privacy Policy ",
+    "and": "and",
+    "sessionExpired": "Please refresh and try again",
+    "tooFrequentCodeRequest": "Verification code requests are too frequent. Please try again after {seconds}",
+    "userLocked": "Account is locked",
+    "invalidEmail": "Email address is invalid, please re-enter",
+    "invalidCaptcha": "Human verification failed, please refresh the page and try again",
+    "unknownError": "Unknow error",
+    "sessionExpiredRetry": "Please refresh and try again",
+    "sendCodeTooFrequent": "Verification code requests are too frequent. Please try again after {left_second}",
+    "userLockedError": "Account is locked",
+    "invalidEmailError": "Email address is invalid, please re-enter",
+    "invalidCaptchaError": "Human verification failed, please refresh the page and try again.",
+    "emailVerificationError": "Invalid code",
+    "googleVerificationError": "Invalid code"
+  },
+  "myOrder": {
+    "orderTime": "Time",
+    "orderId": "Order ID",
+    "package": "Plan",
+    "hashrate": "Hashrate",
+    "amount": "Total",
+    "status": "Status",
+    "currency": "Coin",
+    "contractFee": "Hashrate",
+    "paymentStatus": "Status",
+    "electricityFee": "Electrcity",
+    "algorithm": "Algorithm",
+    "totalFee": "Total",
+    "miningDate": "Mining Period",
+    "moreDetails": "Order details",
+    "deleteOrder": "Delete order",
+    "myOrders": "Orders",
+    "unpaid": "Awaiting payment",
+    "paid": "Completed",
+    "paymentTimeout": "Expired",
+    "miningEnd": "Mining ended",
+    "unknown": "Unknown",
+    "immediatePayment": "Proceed to payment",
+    "completePaymentWithin": "Complete the payment within ",
+    "rebuy": "Reorder",
+    "txid": "TXID:",
+    "paymentExpired": "Expired",
+    "finishPayment": "Completed",
+    "confirmContent": "确认内容",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "deleteOrderConfirm": "Are you sure you want to delete the order? Once deleted, the order cannot be recovered.",
+    "thinkAgain": "No",
+    "yes": "Yes"
+  },
+  "noEleFee": {
+    "title": "️❗️Notice for electricity deposit❗️",
+    "description": "Your hash power has been stopped due to insufficient electricity balance. Please deposit ASAP.",
+    "buttonText": "Deposit Now"
+  },
+  "notificationBar": {
+    "warningMessage": "Your electricity balance is less than 3 days’ usage now. Please deposit immediately."
+  },
+  "orderInfo": {
+    "totalIncome": "Total revenue",
+    "totalExpenditure": "Total cost",
+    "netProfit": "Net profit",
+    "dailyIncome": "Daily revenue",
+    "paybackDays": "Payback period",
+    "paybackPrice": "Break-even BTC Price",
+    "realtimeHashrate": "RT hashrate",
+    "yesterdayHashrate": "Ytd. hashrate",
+    "yesterdayElectricityCost": "Ytd. electricity",
+    "yesterdayIncome": "Ytd. revenue",
+    "totalProfit": "Total revenue",
+    "todayEstimateIncome": "Today mined EST",
+    "hashrateData": "Data",
+    "hashrateCurve": "Chart",
+    "miningPoolObserverLink": "Pool Watcher",
+    "incomeDetails": "Hashrate & Revenue",
+    "date": "Date",
+    "hash": "hashrate",
+    "theoryHashrate": "Purchased hashrate",
+    "realHashrate": "Mining hashrate",
+    "complianceRate": "Hashrate online",
+    "income": "Revenue",
+    "status": "Status",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "txid": "TXID:"
+  },
+  "phoneBind": {
+    "phoneNumber": "Phone Number",
+    "newPhoneNumber": "New Phone Number",
+    "enterPhoneNumber": "Enter phone number",
+    "verificationCode": "Code",
+    "newPhoneVerificationCode": "Code",
+    "sessionExpired": "Please refresh and try again",
+    "invalidCode": "Invalid code",
+    "needSendCode": "Please obtain the SMS verification code first",
+    "confirmBind": "Continue",
+    "nextStep": "Continue"
+  },
+  "priceSlider": {
+    "slideToAdjustPrice": "Swipe to adjust the price",
+    "expectedPrice": "Ept.",
+    "currencyPrice": "{currency} price"
+  },
+  "productDetail": {
+    "chooseQuantityLabel": "Hashrate",
+    "electricityDaysLabel": "Electricity",
+    "contractCostLabel": "Hashrate fee",
+    "electricityCostLabel": "Electricity fee",
+    "totalCostLabel": "Total",
+    "acceptAgreementLabel": "I agree",
+    "serviceAgreementLabel": " Terms of service ",
+    "privacyPolicyLabel": " Privacy Policy ",
+    "disclaimerLabel": " Disclamier ",
+    "and": "and",
+    "buyNowButton": "Proceed to payment",
+    "setDogeAddressInfo": "*According to the mining pool requirements, please set up your DOGE address before placing an order.",
+    "investmentReturnRate": "ROI:",
+    "cloudComputingCost": "Cost",
+    "expectedIncome": "Ept. revenue",
+    "set": "Set Now",
+    "day":"day"
+  },
+  "productList": {
+    "btcCloudComputingPower": "BTC Plans",
+    "dogeLtcCloudComputingPower": "DOGE&LTC PLans",
+    "algorithmLabel": "Algorithm",
+    "miningDateLabel": "Mining period",
+    "powerConsumptionLabel": "Power efficiency",
+    "dailyElectricityFeeLabel": "Electricity fee",
+    "dailyIncomeLabel": "Daily revenue",
+    "minPurchaseQuantityLabel": "Minimum hashrate",
+    "expectedIncomeLabel": "Ept. revenue",
+    "placeOrderNow": "Buy Now"
+  },
+  "securityCenter": {
+    "accountSecurityTitle": "Account",
+    "uidLabel": "UID",
+    "registrationDateLabel": "Registered",
+    "emailAccountLabel": "Email",
+    "securityVerificationTitle": "Security",
+    "googleVerificationLabel": "Google 2FA",
+    "googleVerificationBind": "Enable",
+    "googleVerificationUnbind": "Disable",
+    "googleVerificationDescription": "Two-factor Authentication",
+    "phoneLabel": "Phone",
+    "phoneBind": "Enable",
+    "phoneChange": "Change",
+    "phoneDescription": "Receive notification",
+    "loginHistoryTitle": "Login History",
+    "timeLabel": "Time",
+    "loginMethodLabel": "Type",
+    "ipLabel": "IP",
+    "locationLabel": "Location",
+    "googleVerificationModalTitle": "Google 2FA",
+    "unbindGoogleVerificationModalTitle": "Disable Google 2FA",
+    "changePhoneNumberModalTitle": "Change Phone",
+    "bindPhoneNumberModalTitle": "Enable Phone",
+    "hadBind":"Enabled",
+    "notBind":"Not set" 
+  },
+  "selectNetwork": {
+    "orderPayment": "Order Payment",
+    "amountToPay": "Amount",
+    "chooseCurrency": "Coin",
+    "chooseNetwork": "Network",
+    "payNow": "Proceed to payment",
+    "currencyRate": "1{currency} ≈ {rate}USD"
+  },
+  "twoFactorAuth": {
+    "orderPayment": "Order Payment",
+    "amountToPay": "Amount",
+    "step1": "Download and install the Google Authenticator or Authy app",
+    "step2": "Scan the QR code below",
+    "orEnterKey": "Or enter the key",
+    "step3": "Once the Google Authenticator is set up, it will display a 6-digit number that changes every 30 seconds. This number is your Google verification code.",
+    "emailVerificationCode": "Email code",
+    "googleVerificationCode": "Google code",
+    "confirmBind": "Confirm",
+    "unbindWarning": "After disabling Google verification, setting or modifying the address is prohibited within 24 hours.",
+    "verificationCodeTip": "The verification code will be sent to",
+    "googleCodeError": "Invalid code",
+    "confirm": "Continue",
+    "tryAgainLater":"Too many attempts to send the verification code. Please try again later.",
+    "emailCodeError": "Invalid code",
+    "openGoogleAuthenticator": "Please open your Google Authenticator and enter the 6-digit verification code.",
+    "enterGoogleVerificationCode": "Google code",
+    "setAddressEmailCode": "Code",
+    "enterCode":"Code"
+  },
+  "walletAddress": {
+    "setAddressTitle": "Set {currency} address",
+    "changeAddressTitle": "Change {currency} address",
+    "setAddressOldAddress": "Current address",
+    "setAddressNewAddress": "New address",
+    "setAddressCurrentAddress": "Address",
+    "setAddressEnterNewAddress": "Please enter new {currency} address",
+    "pleaseEnterNew": "Please enter new",
+    "address":"address",
+    "setAddressRemark": "Remark",
+    "setAddressEnterRemark": "Add a remark for address",
+    "setAddressTips": "Tips",
+    "setAddressMinimumPayment": "Minimum payment amount while hashrate is mining:",
+    "setAddressAddressChange": "No payment will be made within 48 hours after your modified your address.",
+    "setAddressPayment": "Payments are generally made the day after updating the earnings, combining multiple hashrates that meet the above conditions into a single payment each day.",
+    "setAddressNext": "Continue",
+    "setAddressInputEmailCode": "Email code",
+    "setAddressEmailCodeTip": "Please enter the 6-digit verification code that was sent to {email}. The code is valid for 30 minutes.",
+    "setAddressEmailCodeTipFront": "Please enter the 6-digit verification code that was sent to ",
+    "setAddressEmailCodeTipAfter": "The code is valid for 30 minutes.",
+    "setAddressEmailCode": "Code",
+    "setAddressEmailCodeWrong": "The email verification code is incorrect. Please try again.",
+    "setGoogleAddressEmailCodeWrong": "The Google Authenticator code is incorrect. Please try again.",
+    "setAddressGoogleCode": "Google code",
+    "setAddressConfirm": "Continue",
+    "setAddressSuccessTitle": "Setting successful",
+    "setAddressSuccessLocation": "{currency} address is",
+    "setAddressReturn": "Back",
+    "addressCardSet":"Set",
+    "addressCardChange": "Change",
+    "addressCardBind": "Settings",
+    "walletAddressTitle": "Address",
+    "getUserInfoFailed":"Failed to retrieve user information.",
+    "modificationError":"Modification error.",
+    "noRemarks":"No remarks available",
+    "remarkTooShort":"Remark too short.",
+    "invalidAddress":"Invalid Address.",
+    "sendFailed":"Send failed.",
+    "pleaseSetNew":"Please set new"
+  },
+  "firstConfirm":{
+    "declarationContent":"I confirm and declare that I am not a resident of Cuba, Iran, North Korea, Syria, or any other country or region subject to sanctions imposed by relevant countries, governments, or international organizations. The services provided by Hash Space comply with the laws, regulations, and policies applicable in my country or region. ",
+    "declarationDesc":"I acknowledge that any legal risks and liabilities arising from the use of services provided by Hash Space in my country or region, where such use is illegal, will be solely my responsibility. ",
+    "confirm": "Continue",
+    "notification":"Reminder"
+  }
+}

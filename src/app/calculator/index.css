@@ -1,0 +1,108 @@
+.cal-card-big{
+max-width: 1200px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    padding: 20px 40px 32px;
+}
+.login-hello{
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.flex-wrap{
+    display: flex;
+    flex-direction: row;
+}
+.divider{
+    width: 1px;
+    height: 450px;
+    background: #FFFFFF;
+    border: 1px solid rgba(233,233,233,0.76);
+    margin: 50px 30px 0;
+}
+.intro{
+    flex: 1;
+}
+.intro-title{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background: #F7F7F7;
+    border-radius: 8px;
+    display: flex;
+    padding: 0 24px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+}
+.intro-single{
+    flex: 1;
+}
+.intro-label{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+.intro-value{
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+}
+.cal-card-list{
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 204px 204px 204px;
+    /*grid-template-rows: 168px 168px;*/
+}
+.cal-card{
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid rgba(233,233,233,0.76);
+    backdrop-filter: blur(0px);
+    padding: 28px 24px 28px;
+}
+.form{
+    flex: 1;
+}
+.cal-card-title2{
+
+}
+.cal-card-count2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    display: flex;
+    gap: 4px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.cal-card-info2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    line-height: 21px;
+    padding-top: 4px;
+}
+.small-text{
+    font-weight: 600;
+    font-size: 12px;
+    color: #333333;
+    line-height: 28px;
+}
+.ant-form-item{
+    margin-bottom: 20px !important;
+}
+.ant-form-item .ant-form-item-label >label::after{
+    content: none !important;
+}

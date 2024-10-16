@@ -1,0 +1,94 @@
+.rowDetail{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 45px 45px 45px 45px;
+    position: relative;
+    line-height: 45px;
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F7F7F8;
+    padding: 8px 64px;
+}
+.mobileRowDetail{
+    background-color: #F7F7F8;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding:20px 0px 20px 16px;
+}
+.smallCost{
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #333333 !important;
+}
+.delOrderBtn{
+    position: absolute;
+    bottom:5px;
+    right: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    color: #999999 !important;
+}
+.rowBold{
+    font-weight: 500;
+    font-size: 14px;
+}
+.flexbox{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+.item{
+    display: flex;
+    line-height: 45px;
+}
+.label{
+    width: 80px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+.value{
+    display: flex;
+    flex: 1;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+.totalFeeText{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+.timeout{
+    font-weight: 600;
+    color: #EA2A2A;
+
+}
+.textAlignCenter{
+    text-align: center;
+    height: 30px !important;
+    font-weight: 400 !important;
+    font-size: 12px;
+    color: #EA2A2A;
+    line-height: 24px !important;
+    margin-top: -4px;
+}
+.countdownWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 23px;
+    gap: 4px;
+    color: #EA2A2A;
+}

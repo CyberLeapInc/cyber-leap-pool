@@ -1,0 +1,7 @@
+#cf-turnstile{
+    iframe{
+        margin-top: 20px;
+        width: 100% !important;
+        max-width: 370px !important;
+    }
+}
