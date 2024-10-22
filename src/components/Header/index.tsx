@@ -32,7 +32,7 @@ const routerLinkList = [
     },
     {
         text: '子账户管理',
-        href: '/securityCenter',
+        href: '/subAccount',
         icon: IconSecurity,
     },
     {

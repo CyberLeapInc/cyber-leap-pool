@@ -42,7 +42,7 @@ const useHideLoading = () => {
 }
 
 let ApiPrefix = 'https://api.hashspace.one/'
-const ApiPrefixTest = 'https://api.test.hashspace.dev/'
+const ApiPrefixTest = 'https://api.pooltest.hashspace.dev'
 
 if (env === 'development' || process.env.IS_TEST === 'test') {
     ApiPrefix = ApiPrefixTest
@@ -122,24 +122,29 @@ axiosInstance.interceptors.response.use((res) => {
 }, (e) => {
     useHideLoading()
     const {response} = e;
-    switch (response.status) {
-        case status.NOT_LOGIN:
-            if (!whiteList.includes(location.pathname)) {
-                location.replace('/')
-            }
-            break;
-        case status.BUSINESS_ERROR:
-            return handleBusinessError(response.data)
-        case status.SERVER_ERROR:
-            message.error('Server Error')
-            return Promise.reject(response.data)
-        case status.FORBIDDEN:
-            message.error('No authorization')
-            return Promise.reject(response.data)
-        default:
-            console.error(e);
-            return Promise.reject(response.data)
+    try {
+        switch (response.status) {
+            // case status.NOT_LOGIN:
+            //     if (!whiteList.includes(location.pathname)) {
+            //         location.replace('/')
+            //     }
+            //     break;
+            case status.BUSINESS_ERROR:
+                return handleBusinessError(response.data)
+            case status.SERVER_ERROR:
+                message.error('Server Error')
+                return Promise.reject(response.data)
+            case status.FORBIDDEN:
+                message.error('No authorization')
+                return Promise.reject(response.data)
+            default:
+                console.error(e);
+                return Promise.reject(response.data)
+        }
+    } catch (e) {
+        console.log(e)
     }
+
 })
 
 export const startLogin = function (email: string, captcha: string): Promise<{
