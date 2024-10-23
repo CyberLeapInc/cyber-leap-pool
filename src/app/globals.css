@@ -477,3 +477,25 @@
 .ant-message-notice-content{
     /*display: none !important;*/
 }
+.ant-tabs-nav{
+    margin-bottom: 0 !important;
+}
+.step-index-wrapper{
+    border: 1px solid rgba(60, 83, 255, 0.1);
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.step-index{
+    height: 24px;
+    color:#3C53FF;
+    background-color: rgba(60, 83, 255, 0.1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+}

@@ -27,17 +27,17 @@ import LanguageSelectorMobile from "@/components/LanguageSelectorMobile";
 const routerLinkList = [
     {
         text: '用户面板',
-        href: '/KYC',
+        href: '/userPanel',
         icon: IconKyc
     },
     {
         text: '子账户管理',
-        href: '/subAccount',
+        href: '/subAccounts',
         icon: IconSecurity,
     },
     {
         text: '矿机',
-        href: '/myOrder',
+        href: '/worker',
         icon: IconMyorder,
     },
     {

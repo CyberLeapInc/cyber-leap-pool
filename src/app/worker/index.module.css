@@ -1,0 +1,279 @@
+.bgImg{
+    background-image: url("../../../public/banner.png");
+    background-repeat: no-repeat;
+
+}
+.contentWrapper{
+    min-height: 800px;
+    background-color: white;
+}
+.safeArea{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mainTitle{
+    font-size: 52px;
+    color: #333333;
+    line-height: 73px;
+    text-align: left;
+    font-weight: 600;
+}
+.subTitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.rightContent{
+    max-width: 630px;
+    margin-left: 483px;
+    padding-top: 160px;
+}
+.modalTitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+}
+.modalSubTitle{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.modalExplain{
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.modalSubExplain{
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+    line-height: 24px;
+    margin-top: 2px;
+}
+.modalCheckbox{
+    color: #666666;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modalSuccessImage{
+    width: 80px;
+    height: 80px;
+    margin: 40px auto 20px;
+}
+.modalSuccessText{
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.countdown{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+}
+.statusBlock{
+    flex: 1;
+}
+.h2{
+    font-weight: 600;
+    font-size: 26px;
+    color: #333333;
+    line-height: 37px;
+}
+.h3{
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+}
+.roundContent{
+    border-radius: 11px;
+    border: 1px solid rgba(233,233,233,0.76);
+    flex: 1;
+    padding: 40px;
+    margin: 24px 0;
+}
+.listContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+.content{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    line-height: 20px;
+}
+.contentTitle{
+
+}
+.valueGroup{
+    display: flex;
+    gap: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    line-height: 22px;
+    margin-top: 8px;
+}
+.contentIcon{
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.observerCard{
+    background: #FAFAFA;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 8px;
+}
+.observerTitle{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+}
+.observerAuthList{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 10px;
+}
+.observerAuthItem{
+    width: 88px;
+    height: 24px;
+    background: #F0F0F0;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+    line-height: 24px;
+}
+.disabledInput{
+    background-color: #FAFAFA !important;
+    color: #999999 !important;
+}
+.disabledInputDark{
+    background-color: #E9E9E9 !important;
+    color: #333333 !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+.smallBtn{
+    height: 16px;
+    width: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+.smallBtn:hover{
+    filter: opacity(60%);
+}
+.cusTab{
+    margin-bottom: 0 !important;
+}
+.modalTipsRow{
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 24px;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+}
+.step{
+    flex: 1;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.workerCard{
+    background: #FAFAFA;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 40px;
+}
+.inputWithCopy{
+    position: relative;
+    margin-top: 8px;
+}
+.inputWithCopyIcon{
+    position: absolute;
+    right: 24px;
+    top: 18px;
+}
+.inputWithCopyIcon:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.pot{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px ;
+}
+.potSuccess{
+    background: #16C984;
+}
+.potDanger{
+    background: #EA2A2A;
+}
+.potDefault{
+    background: #999999;
+}
+.statusFilterItem{
+    font-size: 16px;
+    color:rgba(51,51,51,0.6);
+    line-height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    min-width: 90px;
+    justify-content: center;
+}
+.statusFilterItem:hover{
+    color: #333333;
+}
+.statusFilterItemActive{
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    position: relative;
+}
+.statusFilterItemActive::after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    width: 38px;
+    height: 4px;
+    background: #3C53FF;
+    transform: translateX(-50%);
+}
